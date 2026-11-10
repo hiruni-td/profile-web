@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,119 +11,208 @@
 
 <body>
 
-    <header class="site-header"></header>
-    <nav class="nav" aria-label="Main Navigation">
-        <a class="brand" href="#Home">Hiruni</a>
-        <button class="icon-button menu btn" id="menuBtn" aria-expanded="false" aria-controls="navLink"
-            aria-label="Toggle menu">Menu</button>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#github">Github</a></li>
-            <li><a href="#journey">Journey</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <header class="site-header">
+        <nav class="nav" aria-label="Main Navigation">
 
-        </ul>
-        <button class="icon-btn" id="themBtn" aria-pressed="false" aria-label="Switch to dark them">Dark</button>
+            <a class="brand" href="#home">Hiruni</a>
 
-    </nav>
+            <button class="icon-button menu-btn" id="menuBtn"
+                aria-expanded="false" aria-controls="navLinks">
+                Menu
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#github">Github</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="icon-btn" id="themeBtn"
+                aria-pressed="false" aria-label="Switch to dark theme">
+                Dark
+            </button>
+
+        </nav>
+    </header>
 
     <main id="main">
+
         <section id="home" class="hero" aria-labelledby="hero-title">
-            <div class="bars" aria-hidden="true"><span></span><span></span><span></span></div>
+
+            <div class="bars" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <h1 id="hero-title">Hiruni</h1>
+
             <p class="lead">I am a computing student at iCET.</p>
+
             <div class="actions">
                 <a class="btn" href="#projects">See my projects</a>
                 <a class="btn ghost" href="#contact">Get in Touch</a>
-
             </div>
+
         </section>
 
         <section id="about" class="section" aria-labelledby="about-title">
+
             <h2 id="about-title">About-me</h2>
+
             <article class="about">
-                <p>I am studying at the Institute of Computer Engineering and Technology (iCET) on the Certified
-                    Developer track.So far, I have built console and GUI applications in java, and I'm now having a go
-                    at building websites that look great on any screen.</p>
-                <p>I like projects where I can see the result straight away, a billing system that prints a correct
-                    receipt, or a page that rearrangs itself on a phone</p>
+
+                <p>
+                    I am studying at the Institute of Computer Engineering
+                    and Technology (iCET) on the Certified Developer track.
+                    So far, I have built console and GUI applications in Java,
+                    and I'm now having a go at building websites that look
+                    great on any screen.
+                </p>
+
+                <p>
+                    I like projects where I can see the result straight away,
+                    a billing system that prints a correct receipt, or a page
+                    that rearranges itself on a phone.
+                </p>
 
             </article>
 
         </section>
 
-        <section id="Skills" class="section" aria-labelledby="about-title">
+        <section id="skills" class="section" aria-labelledby="skills-title">
+
             <h2 id="skills-title">Skills</h2>
 
             <ul class="skills">
-                <li><span>Java(OOP,Swing)</span>
-                    <div class="meter" role="progressbar" aria-valuenow="0" aria-valuemax="100" aria-valuenow="70"
-                        aria-label="Java 70 percent"><i data-level="70"></i></div>
+
+                <li>
+                    <span>Java (OOP, Swing)</span>
+                    <div class="meter" role="progressbar"
+                        aria-valuemin="0" aria-valuemax="100"
+                        aria-valuenow="70" aria-label="Java 70 percent">
+                        <i data-level="70"></i>
+                    </div>
                 </li>
-                <li><span>HTML&amp;CSS</span>
-                    <div class="meter" role="progressbar" aria-valuenow="0" aria-valuemax="100" aria-valuenow="60"
-                        aria-label="HTML&amp;CSS 60 percent"><i data-level="60"></i></div>
+
+                <li>
+                    <span>HTML &amp; CSS</span>
+                    <div class="meter" role="progressbar"
+                        aria-valuemin="0" aria-valuemax="100"
+                        aria-valuenow="60" aria-label="HTML and CSS 60 percent">
+                        <i data-level="60"></i>
+                    </div>
                 </li>
-                <li><span>JavaScript</span>
-                    <div class="meter" role="progressbar" aria-valuenow="0" aria-valuemax="100" aria-valuenow="50"
-                        aria-label="JavaScript 50 percent"><i data-level="50"></i></div>
+
+                <li>
+                    <span>JavaScript</span>
+                    <div class="meter" role="progressbar"
+                        aria-valuemin="0" aria-valuemax="100"
+                        aria-valuenow="50" aria-label="JavaScript 50 percent">
+                        <i data-level="50"></i>
+                    </div>
                 </li>
-                <li><span>Git &amp; GitHub</span>
-                    <div class="meter" role="progressbar" aria-valuenow="0" aria-valuemax="100" aria-valuenow="40"
-                        aria-label="Git &amp; GitHub 40 percent"><i data-level="40"></i></div>
+
+                <li>
+                    <span>Git &amp; GitHub</span>
+                    <div class="meter" role="progressbar"
+                        aria-valuemin="0" aria-valuemax="100"
+                        aria-valuenow="40" aria-label="Git and GitHub 40 percent">
+                        <i data-level="40"></i>
+                    </div>
                 </li>
+
             </ul>
 
         </section>
 
+        <section id="projects" class="section"
+            aria-labelledby="projects-title">
 
-        <section id="projects" class="section" aria-labelledby="projects-title">
             <h2 id="projects-title">Projects</h2>
             <div class="grid" id="projectGrid"></div>
 
         </section>
 
-        <section id="github" class="section" aria-labelledby="github-title">
+        <section id="github" class="section"
+            aria-labelledby="github-title">
+
             <h2 id="github-title">GitHub</h2>
-            <p>Here are my most recently updated public repositories on GitHub. You can see all of my repositories by
-                clicking the link below.</p>
-            <a class="btn" id="ghLink" href="" target="_blank" rel="noopener noreferrer"></a>
+
+            <p>
+                Here are my most recently updated public repositories
+                on GitHub. You can see all of my repositories by
+                clicking the link below.
+            </p>
+
+            <a class="btn" id="ghLink" href=""
+                target="_blank" rel="noopener noreferrer"></a>
+
             <div class="grid" id="repoGrid"></div>
+
             <p id="ghStatus" class="status"></p>
 
         </section>
 
-        <section id="Journey" class="section" aria-labelledby="Journey-title">
-            <h2 id="Journey-title">My Journey</h2>
+        <section id="journey" class="section"
+            aria-labelledby="journey-title">
+
+            <h2 id="journey-title">My Journey</h2>
+
             <ol class="timeline">
+
                 <li>
                     <h3>Programming Fundamentals</h3>
-                    <p>Java console applications:Billing and Student Management System</p>
+                    <p>Java console applications: Billing and Student Management System</p>
                 </li>
+
                 <li>
                     <h3>Object Oriented Programming</h3>
-                    <p>Java GUI applications:Billing and Student Management System</p>
+                    <p>Java GUI applications: Billing and Student Management System</p>
                 </li>
+
                 <li>
                     <h3>Web Development</h3>
-                    <p>HTML,CSS and JavaScript:PortFolio Website</p>
+                    <p>HTML, CSS and JavaScript: Portfolio Website</p>
                 </li>
 
             </ol>
 
         </section>
 
-        <section id="contact" class="section" aria-labelledby="contact-title">
+        <section id="contact" class="section"
+            aria-labelledby="contact-title">
+
             <h2 id="contact-title">Contact</h2>
-            <p>Email: <a href="mailto:thathsaranihiruni448@gmail.com">thathsaranihiruni448@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/hiruni-td" target="_blank" rel="noopener noreferrer">hiruni-td</a>
+
+            <p>
+                Email:
+                <a href="mailto:thathsaranihiruni448@gmail.com">
+                    thathsaranihiruni448@gmail.com
+                </a>
             </p>
-            <p>Linkedin: <a href="https://www.linkedin.com/in/hiruni-thathsarani-6b804a434/?isSelfProfile=true"
-                    target="_blank" rel="noopener noreferrer">hiruni-td</a></p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/hiruni-td"
+                    target="_blank" rel="noopener noreferrer">
+                    hiruni-td
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/hiruni-thathsarani-6b804a434/"
+                    target="_blank" rel="noopener noreferrer">
+                    hiruni-thathsarani
+                </a>
+            </p>
 
         </section>
+
     </main>
 
     <footer class="site-footer">
@@ -130,15 +220,19 @@
     </footer>
 
     <dialog id="modal" aria-labelledby="modalTitle">
-        <button class="icon-btn close" id="modalClose" aria-label="Close project details">Close</button>
+
+        <button class="icon-btn close" id="modalClose"
+            aria-label="Close project details">
+            Close
+        </button>
+
         <h3 id="modalTitle"></h3>
         <p id="modalDesc"></p>
         <ul id="modalTech" class="tags"></ul>
 
     </dialog>
 
-
     <script src="JS/main.js"></script>
-</body>
 
+</body>
 </html>
