@@ -1,5 +1,5 @@
 
-const GITHUB_USER = "hirun-hsdz";
+const GITHUB_USER = "hiruni-td";
 
 const projects = [
     {
